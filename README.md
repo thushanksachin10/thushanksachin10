@@ -39,7 +39,7 @@ agent = JobApplicationAgent(
 
 | project | what it does | stack |
 |---|---|---|
-| [gmail → sheets + AI triage](https://github.com/thushanksachin10/gmail_to_sheets) | LLM classifies every inbound email, scores priority, fires Telegram alert for HIGH priority. runs hourly, zero touch. [live dashboard :](https://thushanksachin10.github.io/gmail_to_sheets) | Python · LLaMA 3.1 · Gmail API · GitHub Actions |
+| [gmail → sheets + AI triage](https://github.com/thushanksachin10/MailMind) | LLM classifies every inbound email, scores priority, fires Telegram alert for HIGH priority. runs hourly, zero touch. [live dashboard :](https://thushanksachin10.github.io/MailMind) | Python · LLaMA 3.1 · Gmail API · GitHub Actions |
 | [reelforge AI](https://github.com/thushanksachin10/reelforge-ai) | SaaS that generates viral video scripts + thumbnails from a single prompt. built with OpenRouter + Pollinations AI | React · Node.js · MongoDB · LLaMA 3 |
 | [project health agent](https://github.com/thushanksachin10/project-health-agent) | rule-based RAG agent that scores project health and auto-generates executive PowerPoint decks | Python · RAG · Anthropic API · python-pptx |
 | [T&C scanner](https://github.com/thushanksachin10/terms-and-condition-scanner) | paste any Terms & Conditions. AI extracts the clauses that actually matter. | MERN · LLM · REST API |
